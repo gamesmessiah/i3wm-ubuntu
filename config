@@ -151,10 +151,15 @@ bindsym $mod+r mode "resize"
 
 # Autostart applications
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
+exec --no-startup-id /home/cameron/.startup/volumeicon.sh
+exec --no-startup-id volumeicon
 
 # Open specific applications in floating mode
 for_window [class="Nitrogen"] floating enable sticky enable border normal
 for_window [class="(?i)System-config-printer.py"] floating enable border normal
+for_window [title="alsamixer"] floating enable border pixel 1
+for_window [class="Pavucontrol"] floating enable
+for_window [class="volumeicon"] floating enable
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -198,3 +203,5 @@ client.urgent           #CB4B16 #FDF6E3 #16A085 #268BD2
 client.placeholder      #000000 #0c0c0c #ffffff #000000 #0c0c0c
 
 client.background       #2B2C2B
+
+
