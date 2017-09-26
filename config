@@ -158,6 +158,7 @@ exec --no-startup-id volumeicon
 for_window [class="Nitrogen"] floating enable sticky enable border normal
 for_window [class="(?i)System-config-printer.py"] floating enable border normal
 for_window [title="alsamixer"] floating enable border pixel 1
+for_window [class="(?i)arandr"] floating enable
 for_window [class="Pavucontrol"] floating enable
 for_window [class="volumeicon"] floating enable
 
