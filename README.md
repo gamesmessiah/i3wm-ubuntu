@@ -16,7 +16,8 @@ My Solarized Dark i3wm with Ubuntu
 Installed Applications
 
 nitrogen<br>
-pavucontrol
+pavucontrol<br>
+arandr
 
 <p>sudo apt-get install volumeicon-alsa</p>
 
