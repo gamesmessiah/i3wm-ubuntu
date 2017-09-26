@@ -15,10 +15,10 @@ My Solarized Dark i3wm with Ubuntu
 <hr>
 Installed Applications
 
-nitrogen
+nitrogen<br>
 pavucontrol
 
-sudo apt-get install volumeicon-alsa
+<p>sudo apt-get install volumeicon-alsa</p>
 
 <hr>
 
