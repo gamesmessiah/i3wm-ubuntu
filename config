@@ -162,6 +162,11 @@ for_window [class="(?i)arandr"] floating enable
 for_window [class="Pavucontrol"] floating enable
 for_window [class="volumeicon"] floating enable
 
+# Start Applications
+# bindsym $mod+F2 exec palemoon
+bindsym $mod+F2 exec google-chrome-stable
+bindsym $mod+F3 exec thunar
+
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
