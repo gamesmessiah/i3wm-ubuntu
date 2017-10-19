@@ -150,6 +150,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Autostart applications
+#exec --no-startup-id conky
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
 exec --no-startup-id /home/cameron/.startup/volumeicon.sh
 exec --no-startup-id volumeicon
@@ -166,6 +167,8 @@ for_window [class="volumeicon"] floating enable
 bindsym $mod+F1 exec i3lock -c 000000 -n
 bindsym $mod+F2 exec google-chrome-stable
 bindsym $mod+F3 exec thunar
+bindsym $mod+F4 exec gnome-terminal -e mc
+bindsym $mod+F5 exec /opt/cool-retro-term/./cool-retro-term
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
