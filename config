@@ -165,10 +165,11 @@ for_window [class="volumeicon"] floating enable
 
 # Start Applications
 bindsym $mod+F1 exec i3lock -c 000000 -n
-bindsym $mod+F2 exec google-chrome-stable
+bindsym $mod+F2 exec /opt/cool-retro-term/./cool-retro-term
 bindsym $mod+F3 exec thunar
 bindsym $mod+F4 exec gnome-terminal -e mc
-bindsym $mod+F5 exec /opt/cool-retro-term/./cool-retro-term
+bindsym $mod+F5 exec google-chrome-stable
+bindsym $mod+F6 exec gnome-terminal -e elinks
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
