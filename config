@@ -170,7 +170,10 @@ bindsym $mod+F3 exec thunar
 bindsym $mod+F4 exec gnome-terminal -e mc
 bindsym $mod+F5 exec google-chrome-stable
 bindsym $mod+F6 exec gnome-terminal -e elinks
-
+bindsym $mod+F7 exec gnome-terminal -e calcurse
+bindsym $mod+F9 exec gnome-terminal -e cmus
+bindsym $mod+F10 exec gnome-terminal -e cava
+bindsym $mod+F11 exec gnome-terminal -e vis
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
