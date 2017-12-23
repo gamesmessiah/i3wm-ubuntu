@@ -17,7 +17,8 @@ Installed Applications
 
 nitrogen<br>
 pavucontrol<br>
-arandr
+arandr<br>
+rofi -show combi
 
 <p>sudo apt-get install volumeicon-alsa</p>
 
