@@ -20,6 +20,7 @@ pavucontrol<br>
 arandr<br>
 rofi -show combi
 
+<p>sudo apt-get install compton</p>
 <p>sudo apt-get install volumeicon-alsa</p>
 
 <hr>
